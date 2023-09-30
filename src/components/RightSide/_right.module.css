@@ -1,0 +1,31 @@
+.Right_side_aside{
+    color: white;
+    flex-basis: 73%;
+    background-color: rgb(15, 15, 15);
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    border-radius: 10px;
+    overflow: scroll;
+    margin-left: -5px;
+}
+
+.Right_side_aside::-webkit-scrollbar {
+  width: 14px;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+}
+.Right_side_aside::-webkit-scrollbar-track {
+  background: transparent;
+}
+.Right_side_aside::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4); 
+}
+.Right_side_aside::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3); 
+}
+.Right_side_aside::-webkit-scrollbar-corner{
+    display: none;
+}

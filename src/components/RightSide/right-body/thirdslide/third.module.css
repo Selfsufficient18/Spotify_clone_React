@@ -1,0 +1,131 @@
+.Right_main_block{
+   background-color: #131213;
+    height: 90%;
+    padding: 6px 20px;
+}
+
+.Right_show_all{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Right_show_all a:first-child{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    text-decoration: none;
+    color: white;
+}
+
+.Right_show_all a:last-child{
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.Right_show_all a:hover{
+    text-decoration: underline;
+}
+
+/* Card Block */
+
+.Right_cards_block{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    gap: 25px;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px 10px;
+}
+
+.Right_cards{
+    padding: 15px 11px;
+    background-color: #191818;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: left;
+    border-radius: 6px;
+}
+
+.Right_cards .card_inner1 img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+.card_inner2{
+  font-weight: bold;
+  font-size: 14px;
+  -webkit-text-stroke: 0.3px;
+  letter-spacing: 0.6px;
+  overflow: visible;
+}
+
+.card_inner3{
+    font-size: 12px;
+    word-spacing: 0.6px;
+    font-weight: 600;
+    line-height: 20px;
+    position: relative;
+    bottom: 6px;
+    color: #d6d6d6;
+}
+/*  */
+
+.adru_mele{
+    position: relative;
+    padding-top: 100px;
+    padding-left: 105px;
+    visibility: hidden;
+    z-index: 1;
+    top: 30px;
+    transition: ease all 0.05s;
+}
+
+.adru_mele button{
+    padding: 15px 18px;
+    background-color: #1ed760;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.Right_cards:hover .adru_mele{
+    visibility: visible;
+    top: 0px;
+    transition: ease all 0.3s;
+}
+/*  */
+
+.Right_cards{
+    padding: 15px 15px;
+    background-color: #191818;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: left;
+    border-radius: 6px;
+}
+
+.Right_cards .other{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: left;
+    position: relative;
+    bottom: 170px;
+    z-index: 0;
+}
+.Right_cards:hover{
+    background-image: linear-gradient(#242525,#242525);
+}

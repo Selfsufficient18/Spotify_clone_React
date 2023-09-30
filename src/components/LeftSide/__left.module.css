@@ -1,0 +1,203 @@
+.Left_side_aside{
+  color: rgba(199, 199, 199, 0.749);
+  flex-basis: 27%;
+  height: 100vh;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px 12px;
+  overflow: hidden;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: -5px;
+  margin-top:-20px ;
+}
+
+.Left_side_aside .Left_top{
+    height: 18%;
+    width: 100%;
+    /* border: 2px solid; */
+    border-radius: 10px;
+    background-color: rgb(18, 18, 18);
+    padding-top: 12px;
+}
+
+.Left_top p{
+    font-size: 17px !important;
+    color: white;
+}
+
+.Left_top .Left_Search p{
+    color: rgba(199, 199, 199, 0.749);;
+}
+
+.Left_side_aside .Left_bottom{
+    height: 85%;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Left_bottom_top{
+    flex-basis: 14%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Left_bottom_top p:nth-child(2){
+    position: relative;
+    right: 95px;
+    top: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Left_bottom_first{
+    flex-basis: 38%;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 30px;
+    color: white;
+}
+
+.Left_bottom_first:hover {
+    overflow-y: scroll;
+}
+
+.Left_bottom_first::-webkit-scrollbar {
+  width: 15px;
+  background-color: transparent;
+}
+.Left_bottom_first::-webkit-scrollbar-track {
+  background: transparent;
+}
+.Left_bottom_first::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4); 
+}
+.Left_bottom_first::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3); 
+}
+.Left_bottom_first::-webkit-scrollbar-corner{
+    display: none;
+}
+
+.Left_bottom_second{
+    flex-basis: 48%;
+}
+
+.Left_bottom,.Left_bottom_first,.Left_bottom_second{
+    /* border: 2px solid; */
+    padding: 10px;
+    background-color: rgb(18, 18, 18);
+}
+
+.Left_Home,.Left_Search{
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 30px;
+}
+
+.Left_bottom_inner{
+    height: 300px;
+    width: 350px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Left_inner_content1,.Left_inner_content2{
+    height: 50%;
+    width: 350px;
+    background-color: #242525;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 16px;
+}
+
+.Left_inner_content1 p:first-child{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Left_inner_content1 p:nth-child(2){
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    bottom: 3px;
+}
+.Left_inner_content1 button{
+    width: 120px;
+    padding: 8px 6px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.Left_inner_content2 p:first-child{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Left_inner_content2 p:nth-child(2){
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    bottom: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Left_inner_content2 button{
+    width: 140px;
+    padding: 8px 6px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.Left_Legal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 0px 15px;
+}
+
+.Left_Legal a{
+    text-decoration: none;
+    color: rgba(199, 199, 199, 0.749);
+    font-size: 0.6875rem;
+}
+
+.Left_Legal a:last-child{
+position: relative;
+top: 30px;
+right: 155px;
+}
+
+.Left_Legal+button{
+    padding: 9px 14px;
+    background-color: transparent;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 15px;
+    border: 1px solid white;
+}
+
+.Left_bottom{
+    border-radius: 10px !important;
+}
